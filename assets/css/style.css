@@ -1,0 +1,40 @@
+body {
+	text-align: center;
+	width: 960px;
+	background: ;
+}
+
+h1 {
+	font-size: 24px;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	color: white;
+	padding: 20px;
+	background: #4aaaa5;
+	position: fixed;
+	margin: 00;
+	top: 0;
+	left: 0;
+}
+
+.wrapper {
+	clear: both;
+	position: relative;
+}
+
+img {
+	float: left;
+}
+
+.#links {
+	text-align: right;
+}
+
+#copyright {
+	float: bottom;
+	text-align: center;
+	background: #666666;
+	font-family: Arial, "Helvetica Neue", sans-serif;
+	font-size: 8px;
+	color: white;
+	padding: 20px;
+}
