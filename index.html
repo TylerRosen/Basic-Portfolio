@@ -4,41 +4,56 @@
 <head>
 	<meta charset="UTF-8">
 	<title>About Me</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/reset">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-	<header class="Heading">
-		<div class="container">
-			<h1>Tyler Rosen</h1>
-			<ul>
-				<li>About</li>
-				<li>Portfolio</li>
-				<li>Contact</li>
-			</ul>
-		</div>
-	</header>
+<div class="wrapper">
+	<!-- <div id="navbar"> -->
+		<header class="heading">
+			<div class="container2">
+			<span id="logo">Tyler Rosen</span>
+				<ul>
+					<li>About</li>
+					<li>Portfolio</li>
+					<li>Contact</li>
+				</ul>
+			</div>
+		</header>
+	<!-- </div> -->
 
-	<div class="container">
-	<div class="main-section">
+	<div class="container2">
+		<div class="main-content">
 		<!-- start dynamic content -->
-		<img src="https://avatars3.githubusercontent.com/u/21009799?v=3&s=466" alt="Tyler Rosen", height="200", width="200">
-
-		<h2>About Me</h2>
-
-		<p>Blah Blah Blah</p>
+		<h1>About Me</h1>
+		<hr> </hr>
+		<br>
+			<img id="profile" src="https://avatars3.githubusercontent.com/u/21009799?v=3&s=466" alt="Tyler Rosen", height="200", width="200", align="left",> <p>I graduated from Monmouth University in 2014 with a Bachelor's degree in Communications. I am currently studding webcoding at Rutgers University, where I plan to begin a career in web development.</p>
 
 		<!-- end dynamic content -->
+		</div>
+	
+	<aside id="connect">
+		<h2>Connect with Me</h2>
+		<hr> </hr>
+		<br>
+			<div class="icons">
+				<a href="https://github.com/SGissubel"><img id= "github" src="https://pbs.twimg.com/profile_images/616309728688238592/pBeeJQDQ.png" alt="github icon"></a>
+				<a href="https://www.linkedin.com/in/stevengissubel">
+					<img id= "linkedin" src="https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/linkedin-512.png" alt="linkedin icon"></a>
+				<a href="assets/images/stackoverflow_icon.jpeg">
+					<img id="stackoverflow" src="http://www.gestigon.com/files/theme/images/layout/stackoverflow_icon.svg" alt="stack overflow icon">
+				</a>
+
+		</div>
+	</aside>
 
 	</div>
-
-	<aside id="connect">
-		<h3>Connect with Me</h3>
-
-	</aside>	
-
-	<div id="copyright">
+	<!-- closes .container2	 -->
+	<div class="push"></div>
+</div>
+	<div id="copyright" class="footer">
 		<h3><strong>© Copyright 2016 Tyler Rosen</strong></h3>
 	</div>
 
